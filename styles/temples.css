@@ -53,6 +53,14 @@ h1 {
     gap: 20px;
 }
 
+
+.gallery figure img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
 figure {
     background-color: white;
     padding: 15px;
