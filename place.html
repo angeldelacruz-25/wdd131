@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover the Dominican Republic, its geography, population and weather.">
+    <meta name="author" content="Angel De La Cruz">
+
+    <title>Dominican Republic | Country Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dominican Republic</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source
+                    media="(min-width: 700px)"
+                    srcset="images/dominican_republic.webp">
+
+                <img
+                    src="images/dominican-mobile.webp"
+                    alt="Beautiful tropical landscape in the Dominican Republic"
+                    class="hero-image">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+
+            <div class="info">
+                <p><strong>Area:</strong> 48,671 sq km</p>
+                <p><strong>Population:</strong> 11,427,557</p>
+                <p><strong>Capital:</strong> Santo Domingo</p>
+                <p><strong>Language:</strong> Spanish</p>
+                <p><strong>Currency:</strong> Dominican Peso</p>
+                <p><strong>Time Zone:</strong> UTC-4</p>
+                <p><strong>Calling Code:</strong> +1-809</p>
+                <p><strong>Internet TLD:</strong> .do</p>
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <img
+                src="images/weather.svg"
+                alt="Partly cloudy weather"
+                class="weather-icon">
+
+            <div class="info">
+                <p><strong>Temperature:</strong> 28 °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> 15 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Angel De La Cruz | Dominican Republic</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
