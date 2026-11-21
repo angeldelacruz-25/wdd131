@@ -50,28 +50,29 @@ const temples = [
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
 
-    // Three additional temples
+    // Extra Temples
     {
-        templeName: "Salt Lake Temple",
-        location: "Salt Lake City, Utah, United States",
-        dedicated: "1893, April, 6",
-        area: 253015,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-41401.jpg"
+        templeName: "San Juan Puerto Rico",
+        location: "San Juan, Puerto Rico",
+        dedicated: "2023, January, 15",
+        area: 6988,
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/b8e8764466cb11eda40eeeeeac1ead22054ff7fc/full/800%2C/0/default?lang=eng"
     },
     {
-        templeName: "Accra Ghana",
-        location: "Accra, Ghana",
-        dedicated: "2004, January, 11",
-        area: 17500,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-3656.jpg"
+        templeName: "Santo Domingo Dominican Republic",
+        location: "Santo Domingo, Dominican Republic",
+        dedicated: "2000, September, 17",
+        area: 67000,
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/bd7519e3369d1f82b7470f7d16f1ab92504246b1/full/800%2C/0/default?lang=eng"
     },
     {
-        templeName: "San Diego California",
-        location: "San Diego, California, United States",
-        dedicated: "1993, April, 25",
-        area: 72000,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-3679.jpg"
+        templeName: "San Pedro Sula Honduras",
+        location: "San Pedro Sula, Honduras",
+        dedicated: "2024, October, 13",
+        area: 35818,
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/Usqhjku9xyRSHqRwNaqaXs8ONHRjxnruvehdhtcp/full/800%2C/0/default?lang=eng"
     }
+
 ];
 
 // Generate temple cards
